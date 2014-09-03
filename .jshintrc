@@ -18,7 +18,6 @@
   "trailing": true,
   "white": false,
   "globals": {
-    "promise": true,
      "describe" : false,
      "before": false,
      "after" : false,

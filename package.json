@@ -30,7 +30,6 @@
   },
   "dependencies": {
     "mongodb": "~1.4.9",
-    "bluebird": "~2.3.2",
-    "lodash": "~2.4.1"
+    "bluebird": "~2.3.2"
   }
 }
