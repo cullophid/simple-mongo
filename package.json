@@ -1,0 +1,35 @@
+{
+  "name": "simple-mongo",
+  "version": "0.0.1",
+  "description": "simple mongo client that gets you up and running instantly",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/cullophid/simple-mongo.git"
+  },
+  "keywords": [
+    "mongodb",
+    "db",
+    "database",
+    "noSql"
+  ],
+  "author": "Andreas Møller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cullophid/simple-mongo/issues"
+  },
+  "homepage": "https://github.com/cullophid/simple-mongo",
+  "devDependencies": {
+    "chai-as-promised": "~4.1.1",
+    "sinon": "~1.10.3",
+    "chai": "~1.9.1"
+  },
+  "dependencies": {
+    "mongodb": "~1.4.9",
+    "bluebird": "~2.3.2",
+    "lodash": "~2.4.1"
+  }
+}

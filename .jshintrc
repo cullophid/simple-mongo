@@ -1,0 +1,27 @@
+{
+  "curly": true,
+  "eqeqeq": true,
+  "gcl": true,
+  "globalstrict": true,
+  "immed": true,
+  "indent": 2,
+  "latedef": true,
+  "maxlen": 160,
+  "newcap": true,
+  "noarg": true,
+  "node": true,
+  "nonew": true,
+  "undef": true,
+  "unused": false,
+  "quotmark": "false",
+  "strict": true,
+  "trailing": true,
+  "white": false,
+  "globals": {
+    "promise": true,
+     "describe" : false,
+     "before": false,
+     "after" : false,
+     "it" : false
+  }
+}
