@@ -4,7 +4,7 @@
   "description": "simple mongo client that gets you up and running instantly",
   "main": "index.js",
   "scripts": {
-    "test": "gulp test"
+    "test": "node_modules/.bin/mocha test/mongo.test.js"
   },
   "repository": {
     "type": "git",
@@ -25,7 +25,8 @@
   "devDependencies": {
     "chai-as-promised": "~4.1.1",
     "sinon": "~1.10.3",
-    "chai": "~1.9.1"
+    "chai": "~1.9.1",
+    "mocha": "~1.21.4"
   },
   "dependencies": {
     "mongodb": "~1.4.9",
