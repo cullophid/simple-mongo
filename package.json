@@ -1,6 +1,6 @@
 {
   "name": "simple-mongo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "simple mongo client that gets you up and running instantly",
   "main": "index.js",
   "scripts": {
