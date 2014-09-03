@@ -1,1 +1,1 @@
-module.exports = require('-/lib/mongo');
+module.exports = require('./lib/mongo');

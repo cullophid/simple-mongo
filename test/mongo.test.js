@@ -1,7 +1,7 @@
 'use strict';
 var chai = require('chai'),
   should = chai.should(),
-  mongo = require('../lib/mongo'),
+  mongo = require('../'),
   sinon = require('sinon');
 
 chai.use(require('chai-as-promised'));
