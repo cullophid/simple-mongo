@@ -15,12 +15,4 @@ describe('Mongo', function() {
         collections.should.have.property('length', 12, collections);
     });
   });
-  describe('connect', function() {
-    before(function() {
-      return mongo.connect('mongodb://127.0.0.1:27017/sentia')
-    });
-    it('should contain the proper collections', function() {
-      mongo.db.should.have.property('users');
-    });
-  });
 });
